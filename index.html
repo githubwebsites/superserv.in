@@ -1,162 +1,213 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
-  <head>
-    <title>SuperServ</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="images/superservfavicon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
-  <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    
-        <!--RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
-            <div class="rd-navbar-aside-outer rd-navbar-collapse">
-              <div class="rd-navbar-aside">
-                <div class="rd-navbar-info">
-                  <div class="icon novi-icon mdi mdi-phone"></div><a href="tel:+14168988595">(+1) 4168988595</a>
-                </div>
-                <div>
-                  <div class="icon novi-icon mdi mdi-email"></div>&nbsp;<a href="mail:10715255caninc@gmail.com">10715255caninc@gmail.com</a>
-                </div>
-              </div>
-            </div>
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main-inner">
-                <div class="rd-navbar-main">
-                  <!--RD Navbar Panel-->
-                  <div class="rd-navbar-panel">
-                    <!--RD Navbar Toggle-->
-                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                    <!--RD Navbar Brand-->
-                    <div class="rd-navbar-brand">
-                      <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/superservlogo.png alt="" width="400" height="60"/><img class="brand-logo-light" src="images/superservlogo.png" alt="" width="500" height="80"/></a>
-                    </div>
-                  </div>
-                  <div class="rd-navbar-main-element">
-                    <div class="rd-navbar-nav-wrap">
-                      <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#">Transport</a>
-                        </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#">Placement</a>
-                        </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#">Farming</a>
-                        </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+
+<head>
+  <title>SuperServ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="images/superservfavicon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
+        src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
+        alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
+  </div>
+
+  <!--RD Navbar-->
+  <div class="rd-navbar-wrap">
+    <nav class="rd-navbar rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+      data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+      data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+      data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px"
+      data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+      <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
+        <span></span></div>
+      <div class="rd-navbar-aside-outer rd-navbar-collapse">
+        <div class="rd-navbar-aside">
+          <div class="rd-navbar-info">
+            <div class="icon novi-icon mdi mdi-phone"></div><a href="tel:+14168988595">(+1) 4168988595</a>
+          </div>
+          <div>
+            <div class="icon novi-icon mdi mdi-email"></div>&nbsp;<a
+              href="mail:10715255caninc@gmail.com">10715255caninc@gmail.com</a>
+          </div>
         </div>
-      </header>
-      <!--Swiper-->
-      <section class="section swiper-container swiper-slider swiper-slider-1 context-dark" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" data-slide-bg="images/slider1.jpg">
-            <div class="swiper-slide-caption section-lg">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Professional Accounting</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">& Tax Services</span></h1>
-                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Providing every client with the attention they deserve.</p>
-                    <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div>
-                  </div>
-                </div>
+      </div>
+      <div class="rd-navbar-main-outer">
+        <div class="rd-navbar-main-inner">
+          <div class="rd-navbar-main">
+            <!--RD Navbar Panel-->
+            <div class="rd-navbar-panel">
+              <!--RD Navbar Toggle-->
+              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+              <!--RD Navbar Brand-->
+              <div class="rd-navbar-brand">
+                <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark"
+                    src="images/superservlogo.png alt=" width=" 400" height="60" /><img class="brand-logo-light"
+                    src="images/superservlogo.png" alt="" width="500" height="80" /></a>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide" data-slide-bg="images/slider2.jpg">
-            <div class="swiper-slide-caption section-lg">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Full Accounting Support</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">for Your Business</span></h1>
-                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">Get rid of any accounting issues with our team’s assistance.</p>
-                    <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide" data-slide-bg="images/slider3.jpg">
-            <div class="swiper-slide-caption section-lg">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">#1 Tax Services Provider</span><span class="d-block text-light" data-caption-animate="fadeInUp" data-caption-delay="200">Since the Late 1990s</span></h1>
-                    <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">We offer specialist tax knowledge and full 24/7 support.</p>
-                    <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a class="button button-secondary-text" href="#">Read more</a></div>
-                  </div>
-                </div>
+            <div class="rd-navbar-main-element">
+              <div class="rd-navbar-nav-wrap">
+                <ul class="rd-navbar-nav">
+                  <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="transport.html">Transport</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="placement.html">Placement</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="farming.html">Farming</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <!--Swiper Pagination-->
-        <div class="swiper-pagination-wrap">
+      </div>
+    </nav>
+  </div>
+  </header>
+  <!--Swiper-->
+  <section class="section swiper-container swiper-slider swiper-slider-1 context-dark" data-loop="true"
+    data-autoplay="5000" data-simulate-touch="false">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:
+      linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.35)),
+      url('images/slider1.jpg');"  >
+        <div class="swiper-slide-caption section-lg">
           <div class="container">
             <div class="row">
               <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                <div class="swiper-pagination"></div>
+                <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100"style="text-shadow: 2px 2px 8px #0002027a;">Professional
+                    Accounting</span><span class="d-block text-light" data-caption-animate="fadeInUp"
+                    data-caption-delay="200">& Tax Services</span></h1>
+                <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350" style="text-shadow: 2px 2px 8px #0002027a;">Providing every client with the
+                  attention they deserve.</p>
+                <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a
+                    class="button button-secondary-text" href="#">Read more</a></div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!--Icon List 2-->
-      <section class="section section-sm section-sm-bottom-100 bg-primary">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 wow fadeInUp">
-              <div class="box-icon-2">
-                <div class="icon novi-icon mercury-icon-calc"></div>
-                <h5 class="title">Accounting Services</h5>
-                <p class="text">We offer a full range of comprehensive accounting services to companies throughout the US and European countries.</p>
-              </div>
-            </div>
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-              <div class="box-icon-2">
-                <div class="icon novi-icon mercury-icon-chart"></div>
-                <h5 class="title">Income Tax</h5>
-                <p class="text">This Service allows you to submit and view your tax returns and receive instant notification of the return receipt.</p>
-              </div>
-            </div>
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="box-icon-2">
-                <div class="icon novi-icon mercury-icon-time-sand"></div>
-                <h5 class="title">Financial Services</h5>
-                <p class="text">Our company provides various financial services including insurance, wealth management, tax consulting etc.</p>
+      </div>
+      <div class="swiper-slide" style="background-image:
+      linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.35)),
+      url('images/slider2.jpg');">
+        <div class="swiper-slide-caption section-lg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100" style="text-shadow: 2px 2px 8px #0002027a;">Full Accounting
+                    Support</span><span class="d-block text-light" data-caption-animate="fadeInUp"
+                    data-caption-delay="200">for Your Business</span></h1>
+                <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350" style="text-shadow: 2px 2px 8px #0002027a;">Get rid of any accounting
+                  issues with our team’s assistance.</p>
+                <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a
+                    class="button button-secondary-text" href="#">Read more</a></div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="swiper-slide" style="background-image:
+      linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.35)),
+      url('images/slider3.jpg');">
+        <div class="swiper-slide-caption section-lg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                <h1><span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100" style="text-shadow: 2px 2px 8px #0002027a;">#1 Tax Services
+                    Provider</span><span class="d-block text-light" data-caption-animate="fadeInUp"
+                    data-caption-delay="200">Since the Late 1990s</span></h1>
+                <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350" style="text-shadow: 2px 2px 8px #0002027a;">We offer specialist tax
+                  knowledge and full 24/7 support.</p>
+                <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450"><a
+                    class="button button-secondary-text" href="#">Read more</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Swiper Pagination-->
+    <div class="swiper-pagination-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Icon List 2-->
+  <section class="section section-sm section-sm-bottom-100 bg-primary">
+    <div class="container">
+      <div class="row row-30">
+        <div class="col-md-4 wow fadeInUp">
+          <div class="box-icon-2">
+            <div class="icon novi-icon mercury-icon-calc"></div>
+            <h5 class="title">Accounting Services</h5>
+            <p class="text">We offer a full range of comprehensive accounting services to companies throughout the US
+              and European countries.</p>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="box-icon-2">
+            <div class="icon novi-icon mercury-icon-chart"></div>
+            <h5 class="title">Income Tax</h5>
+            <p class="text">This Service allows you to submit and view your tax returns and receive instant notification
+              of the return receipt.</p>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+          <div class="box-icon-2">
+            <div class="icon novi-icon mercury-icon-time-sand"></div>
+            <h5 class="title">Financial Services</h5>
+            <p class="text">Our company provides various financial services including insurance, wealth management, tax
+              consulting etc.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <!-- -----------------------------------------------Download Our Tax Guide App----------------------------------------------- -->
+  <!-- -----------------------------------------------Download Our Tax Guide App----------------------------------------------- -->
 
-      <!-- <section class="section bg-gray-100 box-image-left">
+  <!-- <section class="section bg-gray-100 box-image-left">
         <div class="container">
           <div class="row">
             <div class="col-md-6 wow fadeInLeft">
@@ -172,273 +223,286 @@
       </section> -->
 
 
-      <!-- ---------------------------------------------Our Mission------------------------------------------------------ -->
+  <!-- ---------------------------------------------Our Mission------------------------------------------------------ -->
 
-      <section class="section bg-default section-md">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-6">
-              <h2 class="title-icon"><span class="icon icon-default mercury-icon-target-2"></span><span>Our <span class="text-light">Mission</span></span></h2>
-              <p class="big">Our mission is to provide accounting and tax services of a superior quality. The responsive, personal attention we provide for each client, regardless how large or small, is the key to our approach.</p>
-              <ul class="list-marked-2">
-                <li>Providing high-quality accounting & tax services</li>
-                <li>Sharing professional experience in tax management</li>
-                <li>Offering full support to all our clients</li>
-              </ul><a class="button button-primary" href="#">Read more</a>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">750</div>
-                    </div>
-                    <p class="box-counter-title">Satisfied Clients</p>
-                  </div>
+  <section class="section bg-default section-md">
+    <div class="container">
+      <div class="row row-30">
+        <div class="col-md-6">
+          <h2 class="title-icon"><span class="icon icon-default mercury-icon-target-2"></span><span>Our <span
+                class="text-light">Mission</span></span></h2>
+          <p class="big">Our mission is to provide accounting and tax services of a superior quality. The responsive,
+            personal attention we provide for each client, regardless how large or small, is the key to our approach.
+          </p>
+          <ul class="list-marked-2">
+            <li>Providing high-quality accounting & tax services</li>
+            <li>Sharing professional experience in tax management</li>
+            <li>Offering full support to all our clients</li>
+          </ul><a class="button button-primary" href="#">Read more</a>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-6">
+              <!--Box counter-->
+              <div class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">750</div>
                 </div>
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">68</div>
-                    </div>
-                    <p class="box-counter-title">Team Members</p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">243</div>
-                    </div>
-                    <p class="box-counter-title">Successful Cases</p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">99</div><span>%</span>
-                    </div>
-                    <p class="box-counter-title">Satisfaction Rate</p>
-                  </div>
-                </div>
+                <p class="box-counter-title">Satisfied Clients</p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-        <!----------------------------------------Contact Form-------------------------------------->
-
-
-        <div class="contact_us">
-          <div class="responsive-container-block container">
-            <form class="form-box">
-              <p class="text-blk contact-head">
-                Get in touch
-              </p>
-              <p class="text-blk contact-subhead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaInsert your text here.
-              </p>
-              <div class="container-block form-wrapper">
-                <div class="responsive-container-block">
-                  <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-4">
-                    <p class="text-blk input-title">
-                      First Name
-                    </p>
-                    <input class="input" id="ijowk-4" name="FirstName">
-                  </div>
-                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-                    <p class="text-blk input-title">
-                      Last Name
-                    </p>
-                    <input class="input" id="indfi-3" name="Last Name">
-                  </div>
-                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-                    <p class="text-blk input-title">
-                      Email
-                    </p>
-                    <input class="input" id="ipmgh-4" name="Email">
-                  </div>
-                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-                    <p class="text-blk input-title">
-                      Phone No.
-                    </p>
-                    <input class="input" id="imgis-4" name="PhoneNumber">
-                  </div>
-                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-4">
-                    <p class="text-blk input-title">
-                      Message
-                    </p>
-                    <textarea class="textinput" id="i5vyy-4" placeholder="Write your message..."></textarea>
-                  </div>
+            <div class="col-6">
+              <!--Box counter-->
+              <div class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">68</div>
                 </div>
-                <button class="submit-btn">
-                  Send Message
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        
-
-        <!----------------------------------------Testimonials-------------------------------------->
-        
-
-        
-<section class="section bg-default section-md container-fluid">
-        <div>
-          <h2>Testimonials</h2>
-        </div>
-      <br>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Carousel indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>   
-          <!-- Wrapper for carousel items -->
-          <div class="carousel-inner">		
-            <div class="item active">
-              <div class="img-box"><img src="images/testimonial1.png" alt=""></div>
-              <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-              <p class="overview"><b>Michael Holz</b>Seo Analyst at <a href="#">OsCorp Tech.</a></p>
-              <div class="star-rating">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                </ul>
+                <p class="box-counter-title">Team Members</p>
               </div>
             </div>
-            <div class="item">
-              <div class="img-box"><img src="images/testimonial2.png" alt=""></div>
-              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-              <p class="overview"><b>Paula Wilson</b>Media Analyst at <a href="#">SkyNet Inc.</a></p>
-              <div class="star-rating">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                </ul>
+            <div class="col-6">
+              <!--Box counter-->
+              <div class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">243</div>
+                </div>
+                <p class="box-counter-title">Successful Cases</p>
               </div>
             </div>
-            <div class="item">
-              <div class="img-box"><img src="images/testimonial3.png" alt=""></div>
-              <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
-              <p class="overview"><b>Antonio Moreno</b>Web Developer at <a href="#">Circle Ltd.</a></p>
-              <div class="star-rating">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                  <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                </ul>
-              </div>
-            </div>		
-          </div>
-          <!-- Carousel controls -->
-          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-          </a>
-        </div>
-      
-</section>
-        
-
-      <!-- -------------------------------------------Footer Section------------------------------------------ -->
-
-      <footer class="section footer-classic">
-        <div class="footer-inner-1">
-          <div class="container">
-            <div class="row row-40">
-              <div class="col-md-5 col-lg-3">
-                <h5>Our Contacts</h5>
-                <ul class="contact-list font-weight-bold">
-                  <li>
-                    <div class="unit unit-spacing-xs">
-                      <div class="unit-left">
-                        <div class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"></div>
-                      </div>
-                      <div class="unit-body"><a href="#">14973 Interurban Ave <br>New York, NY 98168</a></div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-spacing-xs">
-                      <div class="unit-left">
-                        <div class="icon icon-sm icon-primary novi-icon mdi mdi-phone"></div>
-                      </div>
-                      <div class="unit-body"><a href="tel:#">+1 (800) 123 1234</a></div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-spacing-xs">
-                      <div class="unit-left">
-                        <div class="icon icon-sm icon-primary novi-icon mdi mdi-clock"></div>
-                      </div>
-                      <div class="unit-body">
-                        <ul class="list-0">
-                          <li>Weekdays: 8:00–17:00</li>
-                          <li>Weekends: Closed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul><a class="d-inline-block big" href="mailto:#">mail@demolink.org</a>
-              </div>
-              <div class="col-md-6 col-lg-5">
-                <h5>Links</h5>
-                <div class="row row-5 justify-content-between">
-                  <div class="col-sm-6">
-                    <ul class="footer-list big">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Contact Us</a></li>
-                      
-                    </ul>
-                  </div>
-                  
-                  <div class="col-sm-4 col-lg-6 col-xxl-5">
-                    <ul class="footer-list big">
-                      <li><a href="#">Transport</a></li>
-                      <li><a href="#">Placement</a></li>
-                      <li><a href="#">Farming</a></li>
-                      
-                    </ul>
-                  </div>
+            <div class="col-6">
+              <!--Box counter-->
+              <div class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">99</div><span>%</span>
                 </div>
-              </div>
-              <div class="col-md-12 col-lg-4">
-                <h5>Partners</h5>
-                <div class="row row-30 align-items-center text-center">
-                  <div class="col-6 col-md-4 col-lg-6"><a class="link-image" href="#"><img src="images/superservlogo.png" alt="" width="144" height="35"/></a></div>
-                
-                </div>
+                <p class="box-counter-title">Satisfaction Rate</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-inner-2">
-          <div class="container">
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="https://www.linkedin.com/in/indranil-dutta-developer/">Indranil Dutta</a></p>
-          </div>
-        </div>
-      </footer>
+      </div>
     </div>
-    <div class="snackbars" id="form-output-global"></div>
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!--coded by Starlight-->
-  </body>
+  </section>
+
+  <!----------------------------------------Contact Form-------------------------------------->
+
+
+  <div class="contact_us">
+    <div class="responsive-container-block container">
+      <form class="form-box">
+        <p class="text-blk contact-head">
+          Get in touch
+        </p>
+        <p class="text-blk contact-subhead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magnaInsert your text here.
+        </p>
+        <div class="container-block form-wrapper">
+          <div class="responsive-container-block">
+            <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-4">
+              <p class="text-blk input-title">
+                First Name
+              </p>
+              <input class="input" id="ijowk-4" name="FirstName">
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+              <p class="text-blk input-title">
+                Last Name
+              </p>
+              <input class="input" id="indfi-3" name="Last Name">
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+              <p class="text-blk input-title">
+                Email
+              </p>
+              <input class="input" id="ipmgh-4" name="Email">
+            </div>
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+              <p class="text-blk input-title">
+                Phone No.
+              </p>
+              <input class="input" id="imgis-4" name="PhoneNumber">
+            </div>
+            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-4">
+              <p class="text-blk input-title">
+                Message
+              </p>
+              <textarea class="textinput" id="i5vyy-4" placeholder="Write your message..."></textarea>
+            </div>
+          </div>
+          <button class="submit-btn">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!----------------------------------------Testimonials-------------------------------------->
+
+
+
+  <section class="section bg-default section-md container-fluid">
+    <div>
+      <h2>Testimonials</h2>
+    </div>
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="img-box"><img src="images/testimonial1.png" alt=""></div>
+          <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus
+            mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel
+            tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+          <p class="overview"><b>Michael Holz</b>Seo Analyst at <a href="#">OsCorp Tech.</a></p>
+          <div class="star-rating">
+            <ul class="list-inline">
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box"><img src="images/testimonial2.png" alt=""></div>
+          <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam
+            at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl
+            bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+          <p class="overview"><b>Paula Wilson</b>Media Analyst at <a href="#">SkyNet Inc.</a></p>
+          <div class="star-rating">
+            <ul class="list-inline">
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box"><img src="images/testimonial3.png" alt=""></div>
+          <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit
+            tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti.
+            Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
+          <p class="overview"><b>Antonio Moreno</b>Web Developer at <a href="#">Circle Ltd.</a></p>
+          <div class="star-rating">
+            <ul class="list-inline">
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel controls -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+      </a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- -------------------------------------------Footer Section------------------------------------------ -->
+
+  <footer class="section footer-classic">
+    <div class="footer-inner-1">
+      <div class="container">
+        <div class="row row-40">
+          <div class="col-md-5 col-lg-3">
+            <h5>Our Contacts</h5>
+            <ul class="contact-list font-weight-bold">
+              <li>
+                <div class="unit unit-spacing-xs">
+                  <div class="unit-left">
+                    <div class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"></div>
+                  </div>
+                  <div class="unit-body"><a href="#">14973 Interurban Ave <br>New York, NY 98168</a></div>
+                </div>
+              </li>
+              <li>
+                <div class="unit unit-spacing-xs">
+                  <div class="unit-left">
+                    <div class="icon icon-sm icon-primary novi-icon mdi mdi-phone"></div>
+                  </div>
+                  <div class="unit-body"><a href="tel:#">+1 (800) 123 1234</a></div>
+                </div>
+              </li>
+              <li>
+                <div class="unit unit-spacing-xs">
+                  <div class="unit-left">
+                    <div class="icon icon-sm icon-primary novi-icon mdi mdi-clock"></div>
+                  </div>
+                  <div class="unit-body">
+                    <ul class="list-0">
+                      <li>Weekdays: 8:00–17:00</li>
+                      <li>Weekends: Closed</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul><a class="d-inline-block big" href="mailto:#">mail@demolink.org</a>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <h5>Links</h5>
+            <div class="row row-5 justify-content-between">
+              <div class="col-sm-6">
+                <ul class="footer-list big">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact Us</a></li>
+
+                </ul>
+              </div>
+
+              <div class="col-sm-4 col-lg-6 col-xxl-5">
+                <ul class="footer-list big">
+                  <li><a href="#">Transport</a></li>
+                  <li><a href="#">Placement</a></li>
+                  <li><a href="#">Farming</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <h5>Partners</h5>
+            <div class="row row-30 align-items-center text-center">
+              <div class="col-6 col-md-4 col-lg-6"><a class="link-image" href="#"><img src="images/superservlogo.png"
+                    alt="" width="144" height="35" /></a></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-inner-2">
+      <div class="container">
+        <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by
+          <a href="https://www.linkedin.com/in/indranil-dutta-developer/">Indranil Dutta</a></p>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <div class="snackbars" id="form-output-global"></div>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <!--coded by Starlight-->
+</body>
+
 </html>
